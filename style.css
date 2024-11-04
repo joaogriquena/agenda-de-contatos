@@ -23,7 +23,8 @@ header {
     margin-bottom: 20px;
     padding: 10px 0;
     border-radius: 10px;
-    background-color: royalblue;
+    background-color: #1361b9;
+    color: white;
 }
 
 form {
@@ -31,7 +32,7 @@ form {
     justify-content: space-between;
     padding: 30px;
     border-radius: 10px 10px 0 0;
-    background-color: royalblue;
+    background-color: #1361b9;
 }
 
 form input {
@@ -53,11 +54,11 @@ form button {
 }
 
 form button#add-contact {
-    background-color: green;
+    background-color: #009432;
 }
 
 form button#del-contact {
-    background-color: orange;
+    background-color: #eb7b13;
 }
 
 form button img {
@@ -66,5 +67,33 @@ form button img {
 }
 
 table {
-    background-color: blueviolet;
+    width: 100%;
+}
+
+thead {
+    background-color: #1361b9;
+    color: white;
+    font-weight: bold;
+}
+
+table th {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+table tbody {
+    background-color: #E7E7E7;
+    color: #1361b9;
+    font-weight: bold;
+}
+
+table tbody tr td {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+table tfoot {
+    width: 100%;
+    font-weight: bold;
+    background-color: #cbe4e9;
+    color: #1361b9;
 }
