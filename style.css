@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+div {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: royalblue;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+    background-color: royalblue;
+}
+
+form input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+form button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+form button#add-contact {
+    background-color: green;
+}
+
+form button#del-contact {
+    background-color: orange;
+}
+
+form button img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+table {
+    background-color: blueviolet;
+}
