@@ -53,11 +53,11 @@ form button {
     cursor: pointer;
 }
 
-form button#add-contact {
+form button#add-contato {
     background-color: #009432;
 }
 
-form button#del-contact {
+form button#del-contato {
     background-color: #eb7b13;
 }
 
